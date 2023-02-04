@@ -7,60 +7,61 @@
     display:none;
   }
   .content{
-    padding: 0px 9%;
+    padding: 0px 4%;
    
+  }
+  .main{
+    height:600px;
   }
   .content h3{
     padding-left:3px;
+    font-size:20px;
   }
   .content h1{
-    font-size: 40px;
+    font-size: 45px;
   }
-  .images img{
-    position: absolute;
-    flex-direction:column;
-    height: 350px;
-    width: 140%;
-    top: 70%;
-    right: 15px;
-    /* padding-left:3%; */
-    /* padding: 15% 0; */
-  }
+  
   .logo {
     padding: 10px 0;
 
   }
   .triangle{
     display:flex;
+    /* position: absolute; */
     flex-direction: column;
-    top: 50%;
+    /* position: relative; */
   }
   .triangle-down-right{
     width: 25%;
     height: 400px;
     /* position: absolute; */
-    /* padding-bottom: 30px; */
     border-bottom: 300px solid rgb(5, 102, 81);
     border-left: 500px solid transparent;
     right: 0;
-    /* position: absolute; */
-    top: 65%; 
+    top: 60%; 
   } 
-  .images img{
+  .images {
     /* position: absolute; */
     flex-direction:column;
-    height: 350px;
-    width: 140%;
-    top: 100%;
-    right: 15px;
+    height: 300px;
+    width: 100%;
+    top: 57%;
+    right: 20%;
     /* padding-left:3%; */
     /* padding: 15% 0; */
+   }
+  .images img{
+    /* position:absolute; */
+    height: 350px;
+    width: 120%;
+    /* left: 20%; */
+    /* top: 50%; */
   }
   #about-section{
     
     /* border: 2px solid blue; */
     /* position: absolute; */
-    /* padding-top:305px; */
+    padding-top:8%;
 
   }
   .about-content{
@@ -69,7 +70,7 @@
   .about-container{
     /* border: 3px solid black; */
     /* position:absolute; */
-    margin-top: 24%;
+    /* margin-top: 24%; */
     height: 1300px;
     width: 100%;
 
@@ -112,8 +113,9 @@
   .customer-img{
     /* border: 2px solid red; */
     width:100%;
-    height: 350px;;
-    margin-right: 70px;
+    height: 350px;
+    /* padding-right: 25%; */
+    margin-right: 18%;
 
   }
   .customer-content{
@@ -129,6 +131,42 @@
   .customer-img p{
     /* padding: 10px 35%; */
     
+}
+@media screen and (max-width:884px) {
+  .triangle{
+    display:flex;
+    /* position: absolute; */
+    flex-direction: column;
+    /* position: relative; */
+  }
+  .triangle-down-right{
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    border-bottom: 300px solid rgb(5, 102, 81);
+    border-left: 500px solid transparent;
+    right: 0;
+    top: 40%; 
+  } 
+  .images {
+    position: absolute;
+    flex-direction:column;
+    height: 300px;
+    width: 100%;
+    top: 40%;
+    right: 20%;
+    /* padding-left:3%; */
+    /* padding: 15% 0; */
+   }
+  .images img{
+    /* position:absolute; */
+    height: 350px;
+    width: 120%;
+    /* left: 20%; */
+    /* top: 50%; */
+  }
+
+  
 }
   
     
