@@ -123,10 +123,11 @@
   }
   .customer-content P{
     font-size: 13px;
+    margin-left: 5px;
   }
   
   .customer-img img{
-    margin: 0 140px;
+    margin: 0 130px;
   }
   .customer-img p{
     /* padding: 10px 35%; */
