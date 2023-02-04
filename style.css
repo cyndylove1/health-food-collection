@@ -64,13 +64,13 @@ body{
 }
 .triangle{
     /* border: 3px solid brown; */
-    height: 500px;
-    width: 100%;
+    /* height: 500px; */
+    /* width: 100%; */
     /* position: relative; */
 }
 .triangle-down-right{
     width: 30%;
-    position: absolute;
+    /* position: absolute; */
     height: 400px;
     border-bottom: 500px solid rgb(5, 102, 81);
     border-left: 700px solid transparent;

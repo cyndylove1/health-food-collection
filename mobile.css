@@ -7,11 +7,12 @@
     display:none;
   }
   .content{
-    padding: 0px 4%;
+    padding:0 4%;
+    padding-bottom:30%;
    
   }
   .main{
-    height:600px;
+    /* height:500px; */
   }
   .content h3{
     padding-left:3px;
@@ -34,18 +35,18 @@
   .triangle-down-right{
     width: 25%;
     height: 400px;
-    /* position: absolute; */
+    position: absolute;
     border-bottom: 300px solid rgb(5, 102, 81);
     border-left: 500px solid transparent;
     right: 0;
-    top: 60%; 
+    top: 70%; 
   } 
   .images {
-    /* position: absolute; */
+    position: absolute;
     flex-direction:column;
     height: 300px;
-    width: 100%;
-    top: 57%;
+    width: 90%;
+    top: 65%;
     right: 20%;
     /* padding-left:3%; */
     /* padding: 15% 0; */
@@ -127,7 +128,7 @@
   }
   
   .customer-img img{
-    margin: 0 130px;
+    margin: 0 120px;
   }
   .customer-img p{
     /* padding: 10px 35%; */
