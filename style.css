@@ -27,7 +27,7 @@ body{
     width: 100%;
 }
 .content{
-    padding: 90px 9%;
+    padding: 0 9%;
    
 }
 .content h3{
@@ -300,8 +300,11 @@ body{
 }
 .customer-index{
     display: flex;
+    flex: 1 1 25rem;
+    padding: 0 9%;
 }
 .customer-img{
+   
     padding-top:30px;
     box-shadow: 0 4px 4px  rgb(14 55 54 / 15%);
     height:300px;
