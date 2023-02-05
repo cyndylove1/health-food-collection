@@ -72,17 +72,17 @@ header{
     /* border-bottom: 500px solid rgb(5, 102, 81); */
     border-left: 700px solid transparent;
     right: 0;
-    position: absolute;
+    /* position: absolute; */
     top: 15%;
 }
 .images{
     position: absolute;
     height: 300px;
     width: 80%;
-    padding-left:30%;
+    /* padding-left:30%; */
     /* padding-bottom:100px; */
     top: 10%;
-    right: 0%
+    right: 0%;
 }
 .images img{
     height: 500px;
