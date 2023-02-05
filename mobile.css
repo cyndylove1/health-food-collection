@@ -12,7 +12,10 @@
    
   }
   header{
-    height:930px;
+    height:800px;
+  }
+  .logo{
+    display: none;
   }
   .content h3{
     padding-left:3px;
@@ -45,9 +48,9 @@
     position: absolute;
     flex-direction:column;
     height: 300px;
-    width: 110%;
-    top: 72%;
-    right: 15%;
+    width: 120%;
+    top: 55%;
+    right: 10%;
     /* padding-right:6%; */
     /* padding: 15% 0; */
   }
@@ -84,8 +87,9 @@
   .section{
     flex-direction:column;
     width: 90%;
-    margin: 0 5%;
-    padding-right:20px;
+    /* margin: 0 3%; */
+    margin: 0 30px ;
+    padding-right:10px;
   }
   .shop-section{
     /* margin-top: 30%; */
