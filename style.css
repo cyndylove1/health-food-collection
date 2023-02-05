@@ -206,7 +206,10 @@ header{
     transition: 0.5s;
 }
 .about-img img:hover{
-    
+    transform: translateY(-10px);
+
+}
+.about-imgs img:hover{
     transform: translateY(-10px);
 
 }
