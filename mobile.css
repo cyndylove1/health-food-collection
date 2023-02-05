@@ -11,15 +11,15 @@
     padding-bottom:30%;
    
   }
-  .main{
-    /* height:500px; */
+  header{
+    height:800px;
   }
   .content h3{
     padding-left:3px;
     font-size:20px;
   }
   .content h1{
-    font-size: 40px;
+    font-size: 50px;
   }
   
   .logo {
@@ -32,21 +32,21 @@
     flex-direction: column;
     /* position: relative; */
   }
-  .triangle-down-right{
+  /* .triangle-down-right{
     width: 25%;
     height: 400px;
     position: absolute;
     border-bottom: 300px solid rgb(5, 102, 81);
     border-left: 500px solid transparent;
     right: 0;
-    top: 35%; 
-  } 
+    top: 40%; 
+  }  */
   .images {
     /* position: absolute; */
     flex-direction:column;
     height: 300px;
     width: 90%;
-    top: 50%;
+    top: 55%;
     right: 20%;
     padding-right:6%;
     /* padding: 15% 0; */
@@ -84,7 +84,7 @@
     padding-right:20px;
   }
   .shop-section{
-    margin-top: 30%;
+    /* margin-top: 30%; */
     /* position: absolute; */
   }
   .shop-items{
@@ -128,7 +128,7 @@
   }
   
   .customer-img img{
-    margin: 0 125px;
+    margin: 0 140px;
   }
 
 }
