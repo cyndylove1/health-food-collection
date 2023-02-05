@@ -12,7 +12,7 @@
    
   }
   header{
-    height:900px;
+    height:800px;
   }
   .logo{
     display: none;
@@ -35,21 +35,12 @@
     flex-direction: column;
     /* position: relative; */
   }
-  /* .triangle-down-right{
-    width: 25%;
-    height: 400px;
-    position: absolute;
-    border-bottom: 300px solid rgb(5, 102, 81);
-    border-left: 500px solid transparent;
-    right: 0;
-    top: 40%; 
-  }  */
   .images {
-    position: absolute;
+    /* position: absolute; */
     flex-direction:column;
     height: 300px;
     width: 120%;
-    top: 70%;
+    top: 50%;
     right: 10%;
     /* padding-right:6%; */
     /* padding: 15% 0; */
