@@ -21,8 +21,8 @@
            
             <div class="nav-bar">
                 <div class="logo">
-                    <i class="fa-sharp fa-solid fa-globe"></i>Foodie
-
+                    <p><i class="fa-sharp fa-solid fa-globe"></i>Foodie
+                    </p>
                     <div class="hamburger">
                         <div  class="line"></div>
                         <div  class="line"></div>
@@ -51,12 +51,18 @@
                     <h3>welcome to our</h3>
                     <h1>Healthy Food</br> Collection! </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br>vero possimu nam est?adipisicing elit.vero possimus nam est?</p>
-                    <button>Menu</button>
+                    <button>Our Menu</button>
+                    <div class="triangle">
+                        <div class="triangle-down-right"></div>
+                            <div class="images">
+                                <img src="./img/pngwing.com.png" alt="">
+                            </div>
+        
+
+                        
+                    </div>
     
-                        <div class="images">
-                            <img src="./img/kindpng_466145.png" alt="">
-                        </div>
-    
+                        
                     </div>
                     
                 </div>
@@ -269,55 +275,43 @@
     </div>
 
 </div>
-        
-        <!-- Additional required wrapper -->
-        <div class="glider-contain">
-           
-            <div class="glider">
-                    
-            </div>
-            
-            <button aria-labels="Previous" class="glider-prev"></button>
-            <button aria-labels="Next" class="glider-next"></button>
-            <div role="tablist" class="dots"></div>
-    </div>        
-    
-
+              
   <!--customer section ends here-->
   
 <script src="main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 
 
-<script>
-    new Glider(document.querySelector('.glider'), {
-    slidesToShow: 'auto',
-    slidesToScroll: 'auto',
-    draggable: false,
-    dots: 'CSS Selector',
-    arrows: {
-    prev: 'CSS Selector',
-    next: document.querySelector('CSS Selector')
-    },
+<div class="contact">
+    <div class="contact-container">
+        <div class="contact-us">
+            <h1>contact us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br>Rem modi aperiam voluptas fugit, minus numquam </p>
+            <div class="contact-icon">
+                <p><i class="fa-solid fa-location-dot">44 street NYC,USA 10001</i></br>
+                    <i class="fa-solid fa-phone">+100 104 40001</i></br>
+                    <i class="fa-solid fa-envelope">contact@foodie.com</i></p></br>
+    
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Name" required></br>
+                    <input type="text" name="email" placeholder="Email" required></br>
+                    <textarea name="text" id="" cols="50" rows="6" placeholder="Type here" required></textarea></br>
+                    <button type="submit" class="submit"></button></br>
+    
+                </form>
+                
+            </div>
+            
+        </div>
+    </div>
 
-    responsive: [
-    {
-      breakpoint: 900,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 575,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
-    }
-  ]
-});
 
-</script>
+</div>
+   
 </body>
 </html>
