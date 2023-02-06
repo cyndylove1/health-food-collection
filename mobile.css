@@ -22,7 +22,7 @@
     font-size:20px;
   }
   .content h1{
-    font-size: 48px;
+    font-size: 55px;
   }
   
   .logo {
@@ -51,7 +51,7 @@
     flex-direction:column;
     height: 300px;
     width: 120%;
-    top: 80%;
+    top: 95%;
     right: 15%;
     /* padding-right:6%; */
     /* padding: 15% 0; */

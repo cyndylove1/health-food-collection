@@ -387,3 +387,24 @@ header{
     color: rgb(5, 102, 81);
 }
 
+/* customer-section ends here */
+
+
+/* contact-section starts here */
+
+.contact{
+    border: 3px solid tomato;
+
+}
+.contact-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+
+
+}
+
+
+/* contact-section ends here */
+
