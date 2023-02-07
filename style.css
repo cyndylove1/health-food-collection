@@ -1,5 +1,4 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +19,10 @@ header{
     border: 0.5px solid rgb(5, 102, 81);;
     height: 600px;
     /* display: flex; */
+}
+.nav-bar.sticky{
+    background: #120683;
+    padding: 20px 100px;
 }
 
 
@@ -42,7 +45,7 @@ header{
 }
 .content h1{
     font-size: 55px;
-    font-weight: 800;
+    font-weight: 120px;
     color: rgb(5, 2, 49);
 }
 .content p{
@@ -170,7 +173,7 @@ header{
 .about-content{
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     padding: 40px 0;
@@ -182,7 +185,7 @@ header{
     /* top:30px; */
     /* left: 30%; */
     height: 3px;
-    width: 10%;
+    width: 5%;
     background-color: white;
     position: absolute;
     transform: translateX(-40%);
@@ -190,6 +193,7 @@ header{
 .section{
     /* border: 2px solid brown; */
     display: flex;
+    /* height: 300px; */
     /* width: 100%; */
     align-items: center;
     background: white;
@@ -227,18 +231,9 @@ header{
     text-align: center;
     /* padding-bottom: 30px; */
     font-weight: 600;
-    color: white;
+    color:rgb(5, 102, 81) ;
 }
-.about-imgs h4{
-    color: rgb(5, 2, 49);
-    text-align: center;
-}
-.about-imgs p{
-    text-align: center;
-    /* padding-bottom: 30px; */
-    font-weight: 600;
-    color: white;
-}
+
 /* about-section ends here */
 
 
@@ -258,9 +253,9 @@ header{
     font-weight: 600;
 }
 .shop-content h2{
-    font-size:38px;
+    font-size:30px;
     font-weight: 700;
-    color: rgb(5, 102, 81);
+    color: rgb(5, 2, 49);
 }
 .shop-item{
     /* border: 2px solid yellow; */
@@ -338,8 +333,8 @@ header{
     color: rgb(5, 2, 49);
 }
 .customer-content h1{
-    color: rgb(5, 102, 81);
-    font-size: 38px;
+    color: rgb(5, 2, 49);
+    font-size: 30px;
     font-weight: 700;
     padding-top: 50px;
 }
@@ -399,8 +394,15 @@ header{
     /* background: #191919; */
     
 }
-.container-content{
+.contact-container{
     text-align:center;
+    /* color: rgb(5, 102, 81); */
+    padding: 30px 0;
+    font-weight: 700;
+}
+.contact-container h2{
+    color: rgb(5, 2, 49);
+    font-size: 30px;
 }
 .Row{
     display: flex;
@@ -409,35 +411,37 @@ header{
 }
 .contact-left{
     /* border: 2px solid blue; */
-    padding: 30px 5%;
+    padding: 40px 5%;
     /* flex-basis: 35%; */
 
 }
-.contact-left p{
+/* .contact-left p{ */
     /* border: 2px solid black; */
-    padding-left: 10px;
-    color: #000;
-}
+    /* padding-left: 10px; */
+    /* color: #000; */
+/* } */
 .contact-right{
-    flex-basis:60%;
+    flex-basis:50%;
 }
-.sub-title h1{
-    color:#fff;
-    padding:20px 0;
-    font-size:40px;
-    /* margin-left:5%; */
+.contact-left h1{
+    color:rgb(5, 2, 49);
+    /* padding:30px 0; */
+    /* font-size:40px; */
+    margin-right:7%;
 }
 
 .contact-left p{
-    border:3px solid blue;
+    /* border:3px solid blue; */
+    color: #000;
+    padding: 10px 0;
     margin-top:20px;
 
 }
-.contact-left p i{
-    border: 3px solid red;
+.contact-left  i{
+    /* border: 3px solid red; */
     color:rgb(5, 102, 81);
-    margin-right:15px;git add .
-    /* padding-bottom:30px; */
+    margin-right:15px;
+    padding-bottom:30px;
     font-size:20px;
 
 }
@@ -445,33 +449,26 @@ header{
 .social{
     /* border: 3px solid beige; */
     display: flex;
-    margin-left: 5%;
  }
  .social li{
     list-style: none;
+    /* margin-right: 10px; */
  }
  .social a{
     margin-right:15px;
+    right: 10%;
     padding:18px 0;
-    display:inline-block;
-    color: white;
+    /* display:inline-block; */
+    color: rgb(5, 102, 81);
     text-decoration: none;
     font-size: 20px;
     transition:transform 0.5s;
 
  }
 .social a:hover{
-    color:#ff004f;
+    color: #000;
     transform:translateY(-5px);
-}
-.btn2{
-    height:40px;
-    width:20%;
-    border:none;
-    color:#fff;
-    display:inline-block;
-    background:rgb(5, 102, 81);
-}
+}  
 .contact-right form{
     width:100%;
     padding: 30px 0;
@@ -480,7 +477,7 @@ form input, form textarea{
     width:90%;
     border:0;
     outline:none;
-    border: 5px solid rgb(5, 102, 81);
+    border: 2px solid rgb(5, 102, 81);
     /* background:#262626; */
     padding:15px;
     margin:15px 0;
@@ -489,7 +486,13 @@ form input, form textarea{
     border-radius:6px;
 }
 .btn2{
-    border-radius: 10px;
+    height:40px;
+    width:20%;
+    border:none;
+    color:#fff;
+    /* display:inline-block; */
+    background:rgb(5, 102, 81);
+    border-radius: 40px;
     padding:10px 20px;
     font-size:18px;
     margin-top:20px;
