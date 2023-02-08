@@ -123,14 +123,14 @@
     width: 100%;
    flex-direction: column;
     padding: 10px 0;
-    /* padding:0 5%; */
+    margin:0 5%;
   }
   .customer-img{
     /* border: 2px solid red; */
     width:90%;
     height: 350px;
     /* padding-right: 25%; */
-    margin: 0 6%;
+    /* margin-right: 5%; */
 
   }
   .customer-content{
