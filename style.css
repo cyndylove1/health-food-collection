@@ -87,13 +87,25 @@ header{
     width: 80%;
     padding-left:30%;
     /* padding-bottom:100px; */
-    top: 5%;
+    top: 3%;
     right: 0%;
 }
 .images img{
     height: 500px;
     width: 80%;
     
+}
+.images img{
+    animation: float 5s linear;
+}
+@keyframes float{
+    0%,
+    100%{
+        transform: translateY(-3.5rem);
+    }
+    100%{
+        transform: translateY(1rem);
+    }
 }
 
 
@@ -322,7 +334,7 @@ header{
 .customer{
     /* padding: 20px 9%; */
     width:100%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     /* margin: 13px 120px; */
     /* height:500px; */
 }
@@ -350,13 +362,20 @@ header{
     padding: 0 9%;
 }
 .customer-img{
-   
+   /* border: 3px solid black; */
     padding-top:30px;
-    /* box-shadow: 0 4px 4px  rgb(14 55 54 / 15%); */
+    box-shadow: 0 4px 4px  rgb(14 55 54 / 15%);
     height:300px;
     width:80%;
 
 }
+.customer-img:hover{
+    border: 2px solid white;
+    background: rgb(5, 102, 81);
+    color: white;
+    
+}
+
 .customer-img img{
     margin: 0 120px;
     border: 3px solid black;
@@ -365,6 +384,9 @@ header{
     width:25%;
     background-size:cover;
     object-position: center;
+}
+.customer-img img:hover{
+    border: 3px solid white;
 }
 .customer-img p{
     padding: 10px 33%;
@@ -391,7 +413,7 @@ header{
 
 .contact{
     height: 480px;
-    /* background: #191919; */
+    
     
 }
 .contact-container{
@@ -507,4 +529,100 @@ form input, form textarea{
 }
 
 /* contact-section ends here */
+/* footer-section starts here */
+.footer-section{
+    background: rgb(5, 102, 81);
+    /* height: 500px; */
+    /* display: flex; */
+
+
+}
+.footer{
+    height: 250px;
+}
+.footer-content{
+    margin-top: 20%;
+    display: flex;
+}
+.footer-logo i{
+    color: white;
+}
+.footer-logo{
+    font-weight: 600;
+}
+.footer-logo h4{
+    color: white;
+    font-size: 15px;
+}
+.social-footer{
+    /* list-style: none; */
+    display: flex;
+    
+}
+.social-footer li{
+    list-style: none;
+}
+.social-footer a{
+    margin-left: 10px;
+    color:white;
+    height:50px;
+    width:10px;
+    margin-top:10px;
+    text-decoration: none;
+
+}
+.footer-logo{
+    margin: 50px 50px;
+}
+.support{
+    margin: 50px 25px;
+
+}
+.support h4{
+    font-size: 20px;
+}
+.support li{
+    list-style: none;
+    line-height: 1.2;
+    color: white;
+    /* font-weight: 600; */
+}
+.view{
+    margin: 50px 30px;
+}
+.view h4{
+    font-size: 20px ;
+}
+.view li{
+    list-style: none;
+    color: white;
+}
+.contact-footer{
+    margin: 50px 30px;
+}
+.contact-footer h4{
+    font-size: 20px;
+}
+.footer-contact {
+    /* font-weight: 500; */
+    color: white;
+   
+
+}
+.footer-contact i{
+    color: #000;
+    padding: 5px 0;
+    margin-right: 10px;
+    
+}
+.footer-contact button{
+    padding: 10px 10px;
+    background: rgb(5, 102, 81);
+    color: white;
+    margin: 5px 0;
+}
+.footer-contact button:hover{
+    color: rgb(5, 2, 49);
+}
+/* footer-section ends here */
 
