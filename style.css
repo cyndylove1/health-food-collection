@@ -20,12 +20,6 @@ header{
     height: 600px;
     /* display: flex; */
 }
-.nav-bar.sticky{
-    background: #120683;
-    padding: 20px 100px;
-}
-
-
 .main{
     position: relative;
     background-position: center;
@@ -46,11 +40,11 @@ header{
 .content h1{
     font-size: 55px;
     font-weight: 120px;
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
 }
 .content p{
     /* font-size: 20px; */
-    color: rgb(5, 2, 49);
+    color: black;
     font-weight: 600;
     
 }
@@ -126,7 +120,7 @@ header{
     padding: 10px 40px;
     font-size: 20px;
     font-weight:700;
-    color: #000;
+    color: rgb(13, 7, 99);
 }
 .logo i{
     color: rgb(5, 102, 81);
@@ -235,7 +229,7 @@ header{
 
 }
 .about-img h4{
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
     /* padding-top: 30px; */
     text-align: center;
 }
@@ -258,7 +252,7 @@ header{
     /* border: 2px solid black; */
     text-align: center;
     font-size:18px;
-    color: rgb(5, 2, 49);
+    /* color: rgb(13, 7, 99); */
     padding-top: 30px;
 }
 .shop-content p{
@@ -267,7 +261,7 @@ header{
 .shop-content h2{
     font-size:30px;
     font-weight: 700;
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
 }
 .shop-item{
     /* border: 2px solid yellow; */
@@ -293,7 +287,7 @@ header{
     font-size: 12px;
     padding: 0 30px;
     font-weight: 700;
-    color: rgb(3, 1, 34);
+    color: rgb(13, 7, 99);
 }
 .tag{
     box-shadow:0 4px 4px  rgb(14 55 54 / 15%);
@@ -319,18 +313,13 @@ header{
     
 }
 .tag i:hover{
-    background: rgb(5, 2, 49);
+    background: rgb(13, 7, 99);
     /* border: 1px solid rgb(5, 102, 81); */
     color: white;
 
 }
 
 /* shop-section ends here */
-
-.customer-container{
-    /* padding: 20px 9%;  */
-
-}
 .customer{
     /* padding: 20px 9%; */
     width:100%;
@@ -342,10 +331,10 @@ header{
     text-align:center;
     padding:10px 0;
     font-weight: 700;
-    color: rgb(5, 2, 49);
+    /* color: rgb(13, 7, 99); */
 }
 .customer-content h1{
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
     font-size: 30px;
     font-weight: 700;
     padding-top: 50px;
@@ -426,7 +415,7 @@ header{
     font-weight: 700;
 }
 .contact-container h2{
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
     font-size: 30px;
 }
 .Row{
@@ -444,7 +433,7 @@ header{
     flex-basis:50%;
 }
 .contact-left h1{
-    color:rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
     /* padding:30px 0; */
     /* font-size:40px; */
     margin-right:7%;
@@ -529,7 +518,7 @@ form input, form textarea{
 /* contact-section ends here */
 /* footer-section starts here */
 .footer-section{
-    background: rgb(5, 102, 81);
+    background: white;
     /* height: 500px; */
     /* display: flex; */
 
@@ -543,13 +532,18 @@ form input, form textarea{
     display: flex;
 }
 .footer-logo i{
-    color: white;
+    color: rgb(5, 102, 81);
+    font-size: 30px;
+    /* padding-left: 10px; */
+
 }
 .footer-logo{
     font-weight: 600;
+    color: rgb(13, 7, 99);
+    font-size: 30px;
 }
 .footer-logo h4{
-    color: white;
+    color: rgb(13, 7, 99);
     font-size: 15px;
 }
 .social-footer{
@@ -561,16 +555,17 @@ form input, form textarea{
     list-style: none;
 }
 .social-footer a{
-    margin-left: 10px;
-    color:white;
-    height:50px;
-    width:10px;
+    padding-left: 20px;
+    color: rgb(13, 7, 99);
     margin-top:10px;
     text-decoration: none;
 
 }
+.social-footer a:hover{
+    color: rgb(5, 102, 81);
+}
 .footer-logo{
-    margin: 50px 50px;
+    margin: 50px 98px;
 }
 .support{
     margin: 50px 25px;
@@ -578,37 +573,52 @@ form input, form textarea{
 }
 .support h4{
     font-size: 20px;
+    padding-bottom: 10px;
+    color: rgb(13, 7, 99);
 }
 .support li{
     list-style: none;
     line-height: 1.2;
-    color: white;
-    /* font-weight: 600; */
+    color: black;
+    font-weight: 600;
+}
+.support li:hover{
+    color: rgb(5, 102, 81);
+    transition:all 1s ease-in-out ;
 }
 .view{
     margin: 50px 30px;
 }
 .view h4{
     font-size: 20px ;
+    color: rgb(13, 7, 99);
+    padding-bottom: 10px;
 }
 .view li{
     list-style: none;
-    color: white;
+    font-weight: 600;
+    color: black;
+}
+.view li:hover{
+    color: rgb(5, 102, 81);
+    /* border-bottom:2px solid white; */
+    transition:all 1s ease-in-out ;
 }
 .contact-footer{
     margin: 50px 30px;
 }
 .contact-footer h4{
     font-size: 20px;
+    color: rgb(13, 7, 99);
 }
 .footer-contact {
-    /* font-weight: 500; */
-    color: white;
+    font-weight: 600;
+    color: black;
    
 
 }
 .footer-contact i{
-    color: #000;
+    color: rgb(5, 102, 81);
     padding: 5px 0;
     margin-right: 10px;
     
@@ -618,9 +628,13 @@ form input, form textarea{
     background: rgb(5, 102, 81);
     color: white;
     margin: 5px 0;
+    border: 3px solid white;
 }
 .footer-contact button:hover{
-    color: rgb(5, 2, 49);
+    color: rgb(13, 7, 99);
+    background-color: transparent;
+    transition: 0.5s;
+    border: 2px solid rgb(13, 7, 99);
 }
 /* footer-section ends here */
 
