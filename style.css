@@ -519,6 +519,7 @@ form input, form textarea{
 /* footer-section starts here */
 .footer-section{
     background: white;
+    padding: 0 9%;
     /* height: 500px; */
     /* display: flex; */
 
@@ -555,9 +556,10 @@ form input, form textarea{
     list-style: none;
 }
 .social-footer a{
-    padding-left: 20px;
+    padding-left: 10px;
     color: rgb(13, 7, 99);
     margin-top:10px;
+    font-size: 20px;
     text-decoration: none;
 
 }
@@ -565,10 +567,10 @@ form input, form textarea{
     color: rgb(5, 102, 81);
 }
 .footer-logo{
-    margin: 50px 98px;
+    margin: 50px 30px;
 }
 .support{
-    margin: 50px 25px;
+    margin: 50px 70px;
 
 }
 .support h4{
@@ -580,14 +582,14 @@ form input, form textarea{
     list-style: none;
     line-height: 1.2;
     color: black;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .support li:hover{
     color: rgb(5, 102, 81);
     transition:all 1s ease-in-out ;
 }
 .view{
-    margin: 50px 30px;
+    margin: 50px 90px;
 }
 .view h4{
     font-size: 20px ;
@@ -596,7 +598,7 @@ form input, form textarea{
 }
 .view li{
     list-style: none;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: black;
 }
 .view li:hover{
@@ -612,8 +614,9 @@ form input, form textarea{
     color: rgb(13, 7, 99);
 }
 .footer-contact {
-    font-weight: 600;
+    /* font-weight: 600; */
     color: black;
+    padding: 10px 0;
    
 
 }
@@ -631,9 +634,9 @@ form input, form textarea{
     border: 3px solid white;
 }
 .footer-contact button:hover{
-    color: rgb(13, 7, 99);
+    color: black;
     background-color: transparent;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     border: 2px solid rgb(13, 7, 99);
 }
 /* footer-section ends here */

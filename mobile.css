@@ -182,17 +182,18 @@
     flex-direction:column;
   }
   .footer-logo{
-    margin: 20px 20px;
+    margin: 20px 0;
+    text-align: center;
   }
 .support{
-    margin: 5px 20px;
+    margin: 20px 0;
 
   }
 .view{
-    margin: 10px 20px;
+    margin: 20px 0;
   }
 .contact-footer{
-    margin: 10px 20px;
+    margin: 20px 0;
   }
 
 }
