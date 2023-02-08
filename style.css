@@ -370,9 +370,11 @@ header{
 
 }
 .customer-img:hover{
-    border: 2px solid white;
-    background: rgb(5, 102, 81);
+    /* border: 2px solid white; */
+    background: black;
     color: white;
+    border: 3px solid black;
+    transition: all 1s ease;
     
 }
 
@@ -412,7 +414,8 @@ header{
 /* contact-section starts here */
 
 .contact{
-    height: 480px;
+    height: 600px;
+    background: whitesmoke;
     
     
 }
@@ -437,11 +440,6 @@ header{
     /* flex-basis: 35%; */
 
 }
-/* .contact-left p{ */
-    /* border: 2px solid black; */
-    /* padding-left: 10px; */
-    /* color: #000; */
-/* } */
 .contact-right{
     flex-basis:50%;
 }
@@ -541,7 +539,7 @@ form input, form textarea{
     height: 250px;
 }
 .footer-content{
-    margin-top: 20%;
+    /* margin-top: 20%; */
     display: flex;
 }
 .footer-logo i{
