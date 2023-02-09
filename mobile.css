@@ -3,19 +3,15 @@
 
 @media screen and (max-width:1100px) {
 
-  .nav-section{
+  .navbar{
     display:none;
   }
+  .nav-mobile{
+    display: flex;
+  }
   .content{
-    padding:0 4%;
     padding-bottom:30%;
    
-  }
-  header{
-    height:850px;
-  }
-  .logo{
-    display: none;
   }
   .content h3{
     padding-left:3px;
@@ -24,6 +20,18 @@
   .content h1{
     font-size: 60px;
   }
+  .content p{
+    font-size: 13px;
+  }
+  
+  .main{
+    padding:15px;
+    height:800px;
+  }
+  .logo{
+    display: none;
+  }
+  
   
   .logo {
     padding: 10px 0;
@@ -44,14 +52,14 @@
     border-bottom:500px solid rgb(5, 102, 81);
     right: 0;
     /* position: absolute; */
-    top: 66%;
+    top: 40%;
 }
   .images {
     /* position: absolute; */
     flex-direction:column;
     height: 300px;
     width: 120%;
-    top: 95%;
+    top: 60%;
     right: 15%;
     /* padding-right:6%; */
     /* padding: 15% 0; */
@@ -86,10 +94,6 @@
     margin: 0 18px ;
     padding-right:5px;
   }
-  .shop-section{
-    /* margin-top: 30%; */
-    /* position: absolute; */
-  }
   .shop-items{
     padding: 0 3%;
     flex-direction:column;
@@ -123,25 +127,19 @@
     margin:0 5%;
 
   }
-  .customer-content{
-    /* padding-top: 90px; */
-  }
   .customer-content P{
     font-size: 13px;
     margin-left: 5px;
   }
   
   .customer-img img{
-    margin: 0 130px;
+    margin: 0 125px;
   }
   .contact{
     height: 1200px;
   }
   .Row{
     flex-direction: column;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* margin-left: 20px; */
   }
   .contact-left p{
     /* border:3px solid blue; */
@@ -151,9 +149,12 @@
     margin-top:20px;
 
   }
-  .contact-right{
-  padding-left:20px;
+    .contact-right{
+    padding-left:20px;
 
+  }
+  .contact-left p{
+    font-size: 13px;
   }
   .btn2{
     height:40px;
@@ -179,14 +180,14 @@
     margin: 20px 0;
     text-align: center;
   }
-.support{
+  .support{
     margin: 20px 0;
 
   }
-.view{
+  .view{
     margin: 20px 0;
   }
-.contact-footer{
+  .contact-footer{
     margin: 20px 0;
   }
 
