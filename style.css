@@ -60,12 +60,9 @@ header{
     font-weight: 700;   
 }    
 header.sticky{
-    background: rgb(6, 2, 73);
+    background: rgb(5, 102, 81);
     padding: 10px 100px;
     color: white;
-}
-header.sticky a{
-    color: white;   
 }
 header p{
     padding: 10px 10px;
@@ -73,7 +70,14 @@ header p{
     font-weight:700;
     color: rgb(6, 2, 73);
 }
+header.sticky ul li a{
+    color: white;
+
+}
 header.sticky p{
+    color: white;
+}
+header.sticky i{
     color: white;
 }
 header i{
@@ -563,7 +567,7 @@ form input, form textarea{
     list-style: none;
 }
 .social-footer a{
-    padding-left: 10px;
+    padding-left: 20px;
     color: rgb(5, 102, 81);
     margin-top:10px;
     font-size: 20px;
@@ -634,10 +638,12 @@ form input, form textarea{
     margin-right: 10px;
     
 }
-.btn{
+.footer-contact p a{
     padding: 5px 5px;
-    background: rgb(5, 102, 81);
-    color: white;
+    /* background: rgb(5, 102, 81); */
+    color: black;
+    padding-left: 23px;
+    padding-top: 25px;
     text-decoration: none;
     margin-top: 7px;
     /* border: 3px solid rgb(5, 102, 81); */
@@ -646,7 +652,7 @@ form input, form textarea{
     color: black;
     background-color: transparent;
     /* transition: 0.5s; */
-    border: 2px solid rgb(6, 2, 73);
+    /* border: 2px solid rgb(6, 2, 73); */
 }
 /* footer-section ends here */
 
