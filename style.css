@@ -31,11 +31,11 @@ header{
 
 
 }
-.navbar ul{
+.nav-bar ul{
     display:flex;
     list-style:none;
 }
-.navbar ul li a{
+.nav-bar ul li a{
     display:block;
     color:rgb(6, 2, 73);
     text-decoration:none;
@@ -45,7 +45,7 @@ header{
     /* transition:0.2s; */
     /* margin:0 5px; */
 }
-.navbar ul li a:hover{
+.nav-bar ul li a:hover{
     color:white;
     /* color: white; */
     border-radius: 4px;
@@ -53,7 +53,7 @@ header{
     /* transition: 1s; */
 }
 
-.navbar li {
+.nav-bar li {
     font-size: 17px;
     padding: 10px 20px;
     color: rgb(6, 2, 73);
@@ -73,6 +73,9 @@ header p{
 header.sticky ul li a{
     color: white;
 
+}
+header.sticky ul li a:hover{
+    color: rgb(6, 2, 73);
 }
 header.sticky p{
     color: white;
@@ -371,7 +374,7 @@ header i{
 }
 .customer-img:hover{
     /* border: 2px solid white; */
-    background: black;
+    background: rgb(6, 2, 73);
     color: white;
     border: 3px solid black;
     transition: all 1s ease;
@@ -649,8 +652,8 @@ form input, form textarea{
     /* border: 3px solid rgb(5, 102, 81); */
 }
 .btn:hover{
-    color: black;
-    background-color: transparent;
+    color: rgb(5, 102, 81);
+    /* background-color: transparent; */
     /* transition: 0.5s; */
     /* border: 2px solid rgb(6, 2, 73); */
 }

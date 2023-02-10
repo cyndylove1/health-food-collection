@@ -49,22 +49,22 @@
     margin: 6px 10px;
 
 }
-.navbar{
+.nav-bar{
     height:0;
     position: absolute;
     top: 80px;
     left: 0;
     right: 0;
     width: 100vw;
-    background:rgb(6, 2, 73);
+    background:rgb(5, 102, 81);
     transition:0.2s;
     overflow:hidden;
 }
-.navbar.active{
+.nav-bar.active{
     height: 450px;
 
 }
-.navbar ul{
+.nav-bar ul{
     display:block;
     width:fit-content;
     margin:50px auto 0 auto;
@@ -73,15 +73,18 @@
     opacity: 0;
     /* overflow:hidden; */
 }
-.navbar.active ul{
+.nav-bar.active ul{
     opacity:1;
 }
-.navbar ul li a{
+.nav-bar ul li a{
     margin-bottom:12px;
-    /* color: red; */
+    color: white;
 }
-.navbar ul li a:hover{
-    color: black;
+.nav-bar ul li a:hover{
+  background: white;
+  height: 40px;
+  width: 100%;
+    color: rgb(6, 2, 73);
     transition: 1s;
     transform: scale(1.2);
 }
