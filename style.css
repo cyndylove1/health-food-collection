@@ -31,34 +31,34 @@ header{
 
 
 }
-.navbar {
-    /* border: 3px solid red; */
-    display: flex;
-    /* text-decoration: none; */
-    margin-left: 30%;
-    color: rgb(6, 2, 73);
-    transition: 0.5s;
-    list-style: none;
+.navbar ul{
+    display:flex;
+    list-style:none;
 }
-.navbar li a{
-    text-decoration: none;
-    color: rgb(6, 2, 73);
+.navbar ul li a{
+    display:block;
+    color:rgb(6, 2, 73);
+    text-decoration:none;
+    font-size:1em;
+    padding:10px 7px;
+    border-radius:20px;
+    /* transition:0.2s; */
+    /* margin:0 5px; */
 }
-.navbar li a:hover{
-    color: white;
+.navbar ul li a:hover{
+    color:white;
+    /* color: white; */
+    border-radius: 4px;
+    background: rgb(5, 102, 81);
+    /* transition: 1s; */
 }
+
 .navbar li {
     font-size: 17px;
     padding: 10px 20px;
     color: rgb(6, 2, 73);
-    font-weight: 700;
-    
+    font-weight: 700;   
 }    
-.navbar li:hover{
-    color: white;
-    border-radius: 4px;
-    background: rgb(5, 102, 81);
-}
 header.sticky{
     background: rgb(6, 2, 73);
     padding: 10px 100px;
@@ -67,142 +67,29 @@ header.sticky{
 header.sticky a{
     color: white;   
 }
-header .logo{
-    padding: 10px 9px;
+header p{
+    padding: 10px 10px;
     font-size: 20px;
     font-weight:700;
     color: rgb(6, 2, 73);
 }
-header.sticky .logo{
+header.sticky p{
     color: white;
 }
-header .logo i{
+header i{
+    /* border: 3px solid tomato; */
     color: rgb(5, 102, 81);
+
 }
 
 
-/* nav-section starts here */
-.nav-mobile{
-    border: 2px solid blueviolet;
-    display: none;
-    justify-content: space-between;
-    padding: 10px 20px;
-    width: 100%;
-}
-.nav-brand{
-    display: flex;
-    
-}
-.nav-logo{
-    color: white;
-    font-weight: 600;
-}
-.nav-logo i{
-    color: rgb(5, 102, 81);
-}
-.hamburger-container{
-    /* border: 3px solid blue; */
-    height: 30px;
-    width: 30px;
-    display: flex;
-    background: rgb(6, 2, 73);
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-    z-index: 100;
-
-}
-.menu{
-    width: 100%;
-    background: white;
-    height: 3px;
-    position: relative;
-    }
-    .menu::before{
-        content:'';
-        background: white;
-        width: 100%;
-        height: 3px;
-        position: absolute;
-    
-        transform:translateY(-10px);
-    }
-    .menu::after{
-        content:'';
-        background: white;
-        width: 100%;
-        height: 3px;
-        position: absolute;
-        transform:translateY(10px);
-    }
-    .showburger .menu{
-        background:transparent ;
-    
-    
-    }
-    .showburger .menu::before{
-    transform:rotate(45deg);
-    background: rgb(5, 102, 81);
-    }
-    .showburger .menu::after{
-        transform:rotate(-45deg);
-        background: rgb(5, 102, 81);
-    }
-/* nav-section ends here */
-
-
-/* mobile-section start here */
-.mobile-links-container{
-    transform: translateX(102%);
-    transition: all 0.4s ease;
-    /* display: none; */
-    width: 100% ;
-    height: 50%;
-    text-align: center;
-    color: white;
-    padding: 20px 0;
-    background: rgb(5, 102, 81);
-    position: fixed;
-    right:0;
-    top:0;
-    z-index: 3;
-
-}
-.showmobilelinks{
-    /* display: block; */
-    transform: translateX(0);
-}
-.mobile-links-content ul{
-    list-style: none;
-}
-.mobile-links-content  a{
-    border: 3px solid brown;
-    display: block;
-    /* text-align: center; */
-    text-decoration: none;
-    color: white;
-    padding: 20px 30px;
-    /* margin-left: 20px; */
-    
-}
-.mobile-links-content a:hover{
-    /* background: var(--white-color); */
-    /* color: var(--main-color); */
-}
-.mobile-links-content button{
-    margin: 0 0 0 20px;
-    background: transparent;
-    border: 2px solid var(--white-color);
-    color: var(--white-color);
+/* hamburger-section starts here */
+.hamburger{
+    display:none;
 }
 
-.mobile-links-content .active-link{
-    background: ;
-    color: var
-}
-/* mobile-section start here */
 
-
+/* .hamburger-section ends here */
 .main{
     padding: 13% 10%;
     background: white;
@@ -351,10 +238,6 @@ header .logo i{
     transition: 0.5s;
 }
 .about-img img:hover{
-    transform: translateY(-10px);
-
-}
-.about-imgs img:hover{
     transform: translateY(-10px);
 
 }
@@ -650,7 +533,7 @@ form input, form textarea{
 
 }
 .footer{
-    height: 250px;
+    height: 350px;
 }
 .footer-content{
     /* margin-top: 20%; */
@@ -704,7 +587,7 @@ form input, form textarea{
 }
 .support li{
     list-style: none;
-    line-height: 1.2;
+    line-height: 1.5;
     color: black;
     /* font-weight: 600; */
 }
@@ -723,6 +606,7 @@ form input, form textarea{
 .view li{
     list-style: none;
     /* font-weight: 600; */
+    line-height: 1.5;
     color: black;
 }
 .view li:hover{
@@ -746,18 +630,19 @@ form input, form textarea{
 }
 .footer-contact i{
     color: rgb(5, 102, 81);
-    padding: 5px 0;
+    padding: 8px 0;
     margin-right: 10px;
     
 }
-.footer-contact button{
-    padding: 10px 10px;
+.btn{
+    padding: 5px 5px;
     background: rgb(5, 102, 81);
     color: white;
-    margin: 5px 0;
-    border: 3px solid white;
+    text-decoration: none;
+    margin-top: 7px;
+    /* border: 3px solid rgb(5, 102, 81); */
 }
-.footer-contact button:hover{
+.btn:hover{
     color: black;
     background-color: transparent;
     /* transition: 0.5s; */

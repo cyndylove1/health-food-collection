@@ -13,20 +13,82 @@
     padding-bottom:30%;
    
   }
+  header{
+    padding: 10px  2px;
+  }
+  header p{
+    padding: 0 15px;
+
+  }
+  header.sticky .hamburger .line{
+    background: white;
+  }
+  header.sticky{
+    padding: 3px 30px;
+}
   .content h3{
     padding-left:3px;
     font-size:20px;
   }
   .content h1{
-    font-size: 60px;
+    font-size: 65px;
   }
   .content p{
     font-size: 13px;
   }
+  /*---menu container--*/
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    /* left: 30px; */
+}
+.hamburger .line{
+    width: 30px;
+    height: 3px;
+    background: rgb(6, 2, 73);
+    margin: 6px 10px;
+
+}
+.navbar{
+    height:0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background:rgb(6, 2, 73);
+    transition:0.2s;
+    overflow:hidden;
+}
+.navbar.active{
+    height: 450px;
+
+}
+.navbar ul{
+    display:block;
+    width:fit-content;
+    margin:50px auto 0 auto;
+    text-align:center;
+    transition:0.5s;
+    opacity: 0;
+    /* overflow:hidden; */
+}
+.navbar.active ul{
+    opacity:1;
+}
+.navbar ul li a{
+    margin-bottom:12px;
+    /* color: red; */
+}
+.navbar ul li a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.2);
+}
   
   .main{
-    padding:15px;
-    height:800px;
+    padding:70px 10px;
+    height:820px;
   }
   .logo{
     display: none;
@@ -52,7 +114,7 @@
     border-bottom:500px solid rgb(5, 102, 81);
     right: 0;
     /* position: absolute; */
-    top: 40%;
+    top: 43%;
 }
   .images {
     /* position: absolute; */
@@ -75,7 +137,7 @@
     font-size: 15px;
   }
   .about-container{
-    height: 1300px;
+    height: 1200px;
     width: 100%;
 
   }
@@ -83,6 +145,10 @@
     /* border: 2px solid black; */
     padding-left: 25px;
   }
+  .about-img img:hover{
+    transform: none;
+
+}
   .about-content:after{
     width: 10%;
   } 
@@ -136,7 +202,7 @@
     margin: 0 125px;
   }
   .contact{
-    height: 1200px;
+    height: 1000px;
   }
   .Row{
     flex-direction: column;
@@ -154,7 +220,7 @@
 
   }
   .contact-left p{
-    font-size: 13px;
+    font-size: 12px;
   }
   .btn2{
     height:40px;
