@@ -259,5 +259,8 @@
   .contact-footer{
     margin: 20px 0;
   }
+  .last{
+    flex-direction: column;
+  }
 
 }

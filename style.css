@@ -10,7 +10,7 @@
 
 }
 body{
-    height: 2500px;
+    height: 3500px;
 }
 
 /* hero-section starts here */
@@ -656,6 +656,10 @@ form input, form textarea{
     /* background-color: transparent; */
     /* transition: 0.5s; */
     /* border: 2px solid rgb(6, 2, 73); */
+}
+.last{
+    text-align: center;
+    color: rgb(5, 102, 81);
 }
 /* footer-section ends here */
 
