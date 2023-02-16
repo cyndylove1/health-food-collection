@@ -592,6 +592,11 @@ form input, form textarea{
     padding-bottom: 10px;
     color: rgb(6, 2, 73);
 }
+.support a{
+    text-decoration: none;
+    color: black;
+    /* line-height: 1.5; */
+}
 .support li{
     list-style: none;
     line-height: 1.5;
@@ -615,6 +620,11 @@ form input, form textarea{
     /* font-weight: 600; */
     line-height: 1.5;
     color: black;
+}
+.view a{
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
 }
 .view li:hover{
     color: rgb(5, 102, 81);
