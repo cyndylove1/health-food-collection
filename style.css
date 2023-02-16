@@ -597,6 +597,9 @@ form input, form textarea{
     color: black;
     /* line-height: 1.5; */
 }
+.support a:hover{
+    color: rgb(5, 102, 81);
+}
 .support li{
     list-style: none;
     line-height: 1.5;
@@ -625,6 +628,9 @@ form input, form textarea{
     text-decoration: none;
     color: black;
     line-height: 1.5;
+}
+.view a:hover{
+    color: rgb(5, 102, 81);
 }
 .view li:hover{
     color: rgb(5, 102, 81);
@@ -661,7 +667,7 @@ form input, form textarea{
     margin-top: 7px;
     /* border: 3px solid rgb(5, 102, 81); */
 }
-.btn:hover{
+.footer-contact p a:hover{
     color: rgb(5, 102, 81);
     /* background-color: transparent; */
     /* transition: 0.5s; */
