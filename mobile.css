@@ -9,10 +9,7 @@
   .nav-mobile{
     display: flex;
   }
-  .content{
-    padding-bottom:30%;
-   
-  }
+  /* header-section starts here */
   header{
     padding: 10px  2px;
   }
@@ -25,82 +22,14 @@
   }
   header.sticky{
     padding: 3px 30px;
-}
-  .content h3{
-    padding-left:3px;
-    font-size:20px;
   }
-  .content h1{
-    font-size: 65px;
-  }
-  .content p{
-    font-size: 13px;
-  }
-  /*---menu container--*/
-  .hamburger{
-    display: block;
-    cursor: pointer;
-    /* left: 30px; */
-}
-.hamburger .line{
-    width: 30px;
-    height: 3px;
-    background: rgb(6, 2, 73);
-    margin: 6px 10px;
+  /* header-section starts here */
 
-}
-.nav-bar{
-    height:0;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    background:rgb(5, 102, 81);
-    transition:0.2s;
-    overflow:hidden;
-}
-.nav-bar.active{
-    height: 450px;
 
-}
-.nav-bar ul{
-    display:block;
-    width:fit-content;
-    margin:50px auto 0 auto;
-    text-align:center;
-    transition:0.5s;
-    opacity: 0;
-    /* overflow:hidden; */
-}
-.nav-bar.active ul{
-    opacity:1;
-}
-.nav-bar ul li a{
-    margin-bottom:12px;
-    color: white;
-}
-.nav-bar ul li a:hover{
-  background: white;
-  height: 40px;
-  width: 100%;
-    color: rgb(6, 2, 73);
-    transition: 1s;
-    transform: scale(1.2);
-}
-  
+  /* hero-section starts here */
   .main{
     padding:70px 10px;
     height:820px;
-  }
-  .logo{
-    display: none;
-  }
-  
-  
-  .logo {
-    padding: 10px 0;
-
   }
   .triangle{
     display:flex;
@@ -118,7 +47,7 @@
     right: 0;
     /* position: absolute; */
     top: 43%;
-}
+  }
   .images {
     /* position: absolute; */
     flex-direction:column;
@@ -136,6 +65,79 @@
     left: 20%;
     /* top: 80%; */
   }
+  .content h3{
+    padding-left:3px;
+    font-size:20px;
+  }
+  .content{
+    padding-bottom:30%;
+   
+  }
+  .content h1{
+    font-size: 65px;
+  }
+  .content p{
+    font-size: 13px;
+  }
+  /* hero-section ends here */
+
+
+
+  /*---nav-section--*/
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    /* left: 30px; */
+  }
+  .hamburger .line{
+    width: 30px;
+    height: 3px;
+    background: rgb(6, 2, 73);
+    margin: 6px 10px;
+
+  }
+  .nav-bar{
+    height:0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background:rgb(5, 102, 81);
+    transition:0.2s;
+    overflow:hidden;
+  }
+  .nav-bar.active{
+    height: 450px;
+
+  }
+  .nav-bar ul{
+    display:block;
+    width:fit-content;
+    margin:50px auto 0 auto;
+    text-align:center;
+    transition:0.5s;
+    opacity: 0;
+    /* overflow:hidden; */
+  }
+  .nav-bar.active ul{
+    opacity:1;
+  }
+  .nav-bar ul li a{
+    margin-bottom:12px;
+    color: white;
+  }
+  .nav-bar ul li a:hover{
+  background: white;
+  height: 40px;
+  width: 100%;
+    color: rgb(6, 2, 73);
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  /* nav-section ends here */
+  
+  /* about-section starts here */
   .about-content{
     font-size: 15px;
   }
@@ -163,6 +165,9 @@
     margin: 0 18px ;
     padding-right:5px;
   }
+  /* about-section ends here */
+
+  /* shop-section starts here */
   .shop-items{
     padding: 0 3%;
     flex-direction:column;
@@ -180,6 +185,10 @@
     padding: 10px 0;
     width: 100%;
   }
+  /* shop-section ends here */
+
+
+  /* customer-section starts here */
   .customer-index{
     /* border: 2px solid blue; */
     height: 950px;
@@ -204,6 +213,10 @@
   .customer-img img{
     margin: 0 125px;
   }
+  /* customer-section ends here */
+
+
+  /* contact-section starts here */
   .contact{
     height: 1000px;
   }
@@ -239,6 +252,10 @@
     /* text-align: center; */
     cursor:pointer;
   }
+  /* contact-section ends here */
+
+
+  /* footer-section starts here */
   .footer{
     height: 600px;
   }
@@ -262,5 +279,6 @@
   .last{
     flex-direction: column;
   }
+  /* footer-section ends here */
 
 }

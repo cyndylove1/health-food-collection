@@ -13,7 +13,7 @@ body{
     height: 3500px;
 }
 
-/* hero-section starts here */
+/* header-section starts here */
 header{
     /* border: 3px solid black; */
     position: fixed;
@@ -30,6 +30,9 @@ header{
     /* background:whitesmoke; */
 
 
+}
+.hamburger{
+    display:none;
 }
 .nav-bar ul{
     display:flex;
@@ -84,19 +87,15 @@ header.sticky i{
     color: white;
 }
 header i{
-    /* border: 3px solid tomato; */
     color: rgb(5, 102, 81);
 
 }
+/* header-section ends here */
 
 
-/* hamburger-section starts here */
-.hamburger{
-    display:none;
-}
+/* hero-section starts here */
 
 
-/* .hamburger-section ends here */
 .main{
     padding: 13% 10%;
     background: white;
@@ -168,18 +167,6 @@ header i{
     width: 80%;
     
 }
-/* .images img{
-    animation: float 5s linear;
-}
-@keyframes float{
-    0%,
-    100%{
-        transform: translateY(-3.5rem);
-    }
-    100%{
-        transform: translateY(1rem);
-    }
-} */
 
 /* hero-section ends here */
 
@@ -265,7 +252,6 @@ header i{
 
 /* shop-section starts here */
 .shop-section{
-    /* border: 2px solid aqua; */
     width: 100%;
 }
 .shop-content{
@@ -340,6 +326,9 @@ header i{
 }
 
 /* shop-section ends here */
+
+
+/* customer-section starts here */
 .customer{
     width:100%;
 }
@@ -530,6 +519,9 @@ form input, form textarea{
 }
 
 /* contact-section ends here */
+
+
+
 /* footer-section starts here */
 .footer-section{
     background: white;
