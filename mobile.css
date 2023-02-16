@@ -122,7 +122,7 @@
   .images {
     /* position: absolute; */
     flex-direction:column;
-    height: 300px;
+    height: 350px;
     width: 120%;
     top: 60%;
     right: 15%;
