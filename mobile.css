@@ -54,15 +54,15 @@
     height: 350px;
     width: 120%;
     top: 60%;
-    right: 10%;
+    right: 15%;
     /* padding-right:6%; */
     /* padding: 15% 0; */
   }
   .images img{
     /* position:absolute; */
     height: 350px;
-    width: 100%;
-    left: 25%;
+    width: 110%;
+    left: 10%;
     /* top: 80%; */
   }
   .content h3{
