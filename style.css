@@ -68,7 +68,7 @@ header.sticky{
     color: white;
 }
 header p{
-    padding: 10px 10px;
+    padding: 10px 3px;
     font-size: 20px;
     font-weight:700;
     color: rgb(6, 2, 73);
@@ -126,7 +126,7 @@ header i{
     font-weight: 600;
     
 }
-.content button{
+.btn{
     padding: 10px 20px;
     margin-top: 20px;
     font-size: 15px;
@@ -137,11 +137,11 @@ header i{
     border:2px solid rgb(5, 102, 81);
     
 }
-.content button:hover{
+.btn:hover{
     letter-spacing: 2px;
     /* background-color: rgb(5, 102, 81); */
     /* border:2px solid rgb(5, 102, 81); */
-    color: rgb(5, 102, 81);;
+    color: rgb(5, 102, 81);
 }
 .triangle-down-right{
     width: 30%;
@@ -220,17 +220,13 @@ header i{
     /* padding: 0 15%; */
 }
 .about-img img{
+    /* border: 2px solid blue; */
     width: 100%;
     height: 200px;  
     padding: 0 10px;
     transition: 0.5s;
 }
-.about-imgs img{
-    width: 100%;
-    height: 240px;  
-    padding: 0 10px;
-    transition: 0.5s;
-}
+
 .about-img img:hover{
     transform: translateY(-10px);
 
@@ -371,7 +367,7 @@ header i{
 }
 
 .customer-img img{
-    margin: 0 120px;
+    margin: 0 130px;
     border: 3px solid black;
     border-radius:60%;
     height:80px;
@@ -501,9 +497,10 @@ form input, form textarea{
     height:40px;
     width:20%;
     border:none;
-    color:#fff;
+    color:rgb(5, 102, 81);
     /* display:inline-block; */
-    background:rgb(5, 102, 81);
+    background:transparent;
+    border:3px solid rgb(5, 102, 81);
     border-radius: 40px;
     padding:10px 20px;
     font-size:18px;
@@ -513,8 +510,9 @@ form input, form textarea{
 }
 .btn2:hover{
     background: transparent;
-    color: rgb(5, 102, 81);
-    border:3px solid rgb(5, 102, 81);
+    letter-spacing: 2px;
+    /* color: rgb(5, 102, 81); */
+    
     /* transition: all 2s ease; */
 }
 
