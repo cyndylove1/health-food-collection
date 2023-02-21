@@ -10,7 +10,7 @@
 
 }
 body{
-    height: 3500px;
+    height: 2800px;
 }
 
 /* header-section starts here */
@@ -180,7 +180,7 @@ header i{
 
 }
 .about-container{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url("./img/1842325.jpg");
     background-position: center;
@@ -344,9 +344,10 @@ header i{
     padding-bottom: 15px;
 }
 .customer-index{
-    height: 400px;
+    text-align: center;
+    /* height: 400px; */
     display: flex;
-    flex: 1 1 25rem;
+    /* flex: 1 1 25rem; */
     padding: 0 9%;
 }
 .customer-img{
@@ -367,7 +368,9 @@ header i{
 }
 
 .customer-img img{
-    margin: 0 130px;
+    /* border: 3px solid red; */
+    right: 30%;
+    /* align-items: center; */
     border: 3px solid black;
     border-radius:60%;
     height:80px;
@@ -387,10 +390,10 @@ header i{
     /* width: 80%; */
     padding: 10px 10px;
     line-height: 1.4;
-    text-align: center;
+    /* text-align: center; */
 }
 .customer-img h3{
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     font-weight: 700;
     color: rgb(5, 102, 81);
@@ -502,7 +505,7 @@ form input, form textarea{
     background:transparent;
     border:3px solid rgb(5, 102, 81);
     border-radius: 40px;
-    padding:10px 20px;
+    padding:5px 20px;
     font-size:18px;
     margin-top:20px;
     /* text-align: center; */
@@ -666,6 +669,7 @@ form input, form textarea{
 .last{
     text-align: center;
     color: rgb(5, 102, 81);
+    font-weight:600;
 }
 /* footer-section ends here */
 
