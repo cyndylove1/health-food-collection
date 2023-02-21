@@ -307,6 +307,7 @@
   }
   .last{
     flex-direction: column;
+    padding-top: 40px;
   }
   /* footer-section ends here */
 
