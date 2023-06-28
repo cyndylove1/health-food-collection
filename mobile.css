@@ -197,6 +197,7 @@
   .shop-content p{
     font-size: 13px;
   }
+  
     
   .shop-item{
     padding: 0 3%;
@@ -206,6 +207,10 @@
     /* border: 1px solid rgb(5, 102, 81); */
     padding: 10px 0;
     width: 100%;
+  }
+  .shop-img img:hover{
+    transform:none;
+    transition:none;
   }
   /* shop-section ends here */
 

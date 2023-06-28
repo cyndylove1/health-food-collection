@@ -5,20 +5,14 @@
         });
 
 
-        var ourbody=document.querySelector(".ourpagebody")
-    // ourbody.style.background="black"
-    var hamburger=document.querySelector(".hamburger-container")
+        
 
-    // console.log(hamburger)
-
-    function addandremove(){
-    hamburger.classList.toggle('showburger')
-    }
-    var mobilelinkscontainer=document.querySelector('.mobile-links-container')
-
-    function addandremove(){
-        hamburger.classList.toggle('showburger')
-        mobilelinkscontainer.classList.toggle('showmobilelinks')
-    }
-
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2000,
+        reset: true
     
+     })
+     
+ sr.reveal('.content',{delay:350, origin:'bottom'})
+ sr.reveal('.images',{delay:350, origin:'top'})
